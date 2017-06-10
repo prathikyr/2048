@@ -56,22 +56,23 @@ namespace Game
               //  for (int j = 0; j < 4; j++)
                 //{
                     //Console.Write(board[i, j] + "\t");
-            pictureBox1.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[0,0].ToString() + ".jpg";
-            pictureBox2.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[0,1].ToString() + ".jpg";
-            pictureBox3.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[0,2].ToString() + ".jpg";
-            pictureBox4.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[0,3].ToString() + ".jpg";
-            pictureBox5.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[1,0].ToString() + ".jpg";
-            pictureBox6.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[1,1].ToString() + ".jpg";
-            pictureBox7.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[1,2].ToString() + ".jpg";
-            pictureBox8.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[1,3].ToString() + ".jpg";
-            pictureBox9.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[2,0].ToString() + ".jpg";
-            pictureBox10.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[2,1].ToString() + ".jpg";
-            pictureBox11.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[2,2].ToString() + ".jpg";
-            pictureBox12.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[2,3].ToString() + ".jpg";
-            pictureBox13.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[3,0].ToString() + ".jpg";
-            pictureBox14.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[3,1].ToString() + ".jpg";
-            pictureBox15.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[3,2].ToString() + ".jpg";
-            pictureBox16.ImageLocation = @"C:\Users\ANEESH\Desktop\image" + board[3,3].ToString() + ".jpg";
+			path = "~/2048/images";
+            pictureBox1.ImageLocation = @path + board[0,0].ToString() + ".jpg";
+            pictureBox2.ImageLocation = @path + board[0,1].ToString() + ".jpg";
+            pictureBox3.ImageLocation = @path + board[0,2].ToString() + ".jpg";
+            pictureBox4.ImageLocation = @path + board[0,3].ToString() + ".jpg";
+            pictureBox5.ImageLocation = @path + board[1,0].ToString() + ".jpg";
+            pictureBox6.ImageLocation = @path + board[1,1].ToString() + ".jpg";
+            pictureBox7.ImageLocation = @path + board[1,2].ToString() + ".jpg";
+            pictureBox8.ImageLocation = @path + board[1,3].ToString() + ".jpg";
+            pictureBox9.ImageLocation = @path + board[2,0].ToString() + ".jpg";
+            pictureBox10.ImageLocation = @path + board[2,1].ToString() + ".jpg";
+            pictureBox11.ImageLocation = @path + board[2,2].ToString() + ".jpg";
+            pictureBox12.ImageLocation = @path + board[2,3].ToString() + ".jpg";
+            pictureBox13.ImageLocation = @path + board[3,0].ToString() + ".jpg";
+            pictureBox14.ImageLocation = @path + board[3,1].ToString() + ".jpg";
+            pictureBox15.ImageLocation = @path + board[3,2].ToString() + ".jpg";
+            pictureBox16.ImageLocation = @path + board[3,3].ToString() + ".jpg";
 
            
 
